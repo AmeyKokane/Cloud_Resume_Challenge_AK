@@ -28,7 +28,8 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name ak-cdn-crc --name ak-cdn-endpoint --resource-group cloud_resume_challenge_ak
+            az account set --subscription 3a1f3550-e723-4ba6-a988-a9c25a38d4ea
+            az cdn endpoint purge --content-paths  "/*" --profile-name ak-cdn-crc --name ak-cdn-endpoint --resource-group cloud_resume_challenge_ak
 
   # Azure logout 
     - name: logout
