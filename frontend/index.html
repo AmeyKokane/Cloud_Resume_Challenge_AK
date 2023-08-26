@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amey Kokane</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/main.js"></script>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+</head>
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40">AMEY</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About Me</a>
+                        <a href="#services"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">My Skills</a>
+                        <a href="#awards"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Certifications</a>
+                        <a href="#contact"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Get In Touch</a>
+                        
+                        <!-- <a href="https://blog.rishabkumar.com/" -->
+                            <!-- class="nav-item nav-link text-white-50 font-os font-size-16 active" target="blank">Blog</a> -->
+                        <p class="nav-item nav-link text-white-50 font-os font-size-16 active">Visitors: <a
+                            id="counter"></a></p>
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <!-- <div class="author-img"></div> -->
+                            <img src="./assets/img/avatar-removebg-preview.png" alt="Author Image" >
+                            
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Amey Kokane</h1>
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <!-- <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5> -->
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                            <img src="./assets/img/amey_banner2.jpeg" alt="profile image" class="img-fluid">
+                            <p  class="font-ram text-black-50 py-2"> </p>
+                            <button type="submit" onclick="window.open('./assets/AmeyCRCResume.pdf')"
+                            class="btn btn-dark text-uppercase mr-3">Download CV</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6> -->
+                            <h5 class="font-ram font-size-20 py-2">I'm Amey Kokane & a <span id="typed_2"></span></h5>
+                            <p class="font-ram text-black-50 py-2">
+                                I love data and coding. I am experienced in SQL, Python, SAS and can
+                                help clients with several analytics tools. Currently working on getting better
+                                at Azure Cloud, Learning Advance Python Concepts and Data Ops best practices.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram font-size-16"><b class="underline-text">Education:</b> <span class="text-black-100 underline-text">Master of Science Management Information Systems</span></p>
+                                </div>
+                            </div>
+                            <p class="font-ram text-black-50 py-2">
+                                Apart from doing "silly computer stuff" (in words of my little one), I enjoy most of my time being outdoors. During the warmer months here in Chicago, I enjoy training for my half marathons, walking my dog, and visting parks with family.
+                                When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, spend a lot of time playing Chess, I alsi spend a some of my free time exploring the latest technology advancements in the analytics and data engineering world.</p>
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <div class="skill-category">
+                                <p style="font-size: 26px;" class="font-ram font-size-30 text-black-50 pb-3">Programming</p>
+                                <ul class="list-inline dev-icons">
+                                    <li class="list-inline-item">
+                                        <i class="fab fa-python"></i>
+                                        <p class="font-ram font-size-16 text-black-50 pb-3">Python</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-database"></i>
+                                        <p class="font-ram font-size-16 text-black-50 pb-3">SQL</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-terminal"></i>
+                                        <p class="font-ram font-size-16 text-black-50 pb-3">Bash</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-code"></i>
+                                        <p class="font-ram font-size-16 text-black-50 pb-3">SAS</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-bolt"></i>
+                                        <p class="font-ram font-size-16 text-black-50 pb-3">PySpark</p>
+                                    </li>
+                                    <!-- Other skills... -->
+                                </ul>
+                            </div>
+                            <p style="font-size: 26px;" class="font-ram font-size-30 text-black-50 pb-3">Tools</p>
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-item">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <p class="font-ram font-size-16 text-black-50 pb-3">Tableau</p>
+                                </li>
+                                
+                                <li class="list-inline-item">
+                                    <i class="fas fa-code-branch"></i>
+                                    <p class="font-ram font-size-16 text-black-50 pb-3">Git</p>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-docker"></i>
+                                    <p class="font-ram font-size-16 text-black-50 pb-3">Docker</p>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-jenkins"></i>
+                                    <p class="font-ram font-size-16 text-black-50 pb-3">Jenkins</p>
+                                </li>
+                        </div>
+                    </div>
+                </section>
+                <!-- #ability -->
+
+
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> Certifications</h1>
+                    </div>
+                    <div class="w-100">
+
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Certified: Azure Data Fundamentals
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Data Engineering Zoomcamp by DTC
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- #awards -->
+
+
+                <!--footer-->
+                <section class="contact px-4 py-5 bg-light" id="contact">
+                    <div class="do py-5">
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-phone"></i> Get in Touch</h1>
+                    </div>
+                        <div class="social-icons col-sm-4 my-4">
+                            <a href="https://www.linkedin.com/in/amey-kokane-dataanalytics/" target="blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/AmeyKokane" target="blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                    </div>
+                    
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
