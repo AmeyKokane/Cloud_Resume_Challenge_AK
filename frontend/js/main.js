@@ -8,14 +8,14 @@ const functionApi = 'https://counter-resume-ak.azurewebsites.net/api/HttpTrigger
 const getVisitCount = () => {
   let count = 30;
   fetch(functionApi)
-    .then(response => {
+  .then(response => {
       return response.json()
-    })
-    .then(response => {
+  })
+  .then(response => {
+      console.log("Website called function API.");
       count = response;
-      console.log("Hello Hooman 🤖, you are visitor number - " + count);
       document.getElementById('counter').innerText = count;
-    }).catch(function (error) {
+  }).catch(function(error) {
       console.log(error);
     });
   return count;

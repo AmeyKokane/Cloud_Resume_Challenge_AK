@@ -31,8 +31,8 @@ var typed = new Typed('#typed', {
         'BI Engineer'
         
     ],
-    typeSpeed: 50,
-    backSpeed: 50,
+    typeSpeed: 40,
+    backSpeed: 40,
     loop: true
 });
 
@@ -42,8 +42,8 @@ var typed_2 = new Typed('#typed_2', {
         'Analytics Engineer',
         'BI Engineer'
     ],
-    typeSpeed: 50,
-    backSpeed: 50,
+    typeSpeed: 40,
+    backSpeed: 40,
     loop: true
 });
 
