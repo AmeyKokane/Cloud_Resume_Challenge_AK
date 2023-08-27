@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
-const functionApi = 'https://rishabcloudresume.azurewebsites.net/api/Counter';
+const functionApi = 'https://counter-resume-ak.azurewebsites.net/api/httptrigger1?code=vWvfQ2luXx-odLI0a3xxw0nXJG8u0LgB43P_18NJkMg_AzFuvP7gtg%3D%3D';
 
 const getVisitCount = () => {
   let count = 30;
@@ -13,7 +13,7 @@ const getVisitCount = () => {
     })
     .then(response => {
       count = response;
-      console.log("Hello 👋, you are visitor number - " + count);
+      console.log("Hello Hooman 🤖, you are visitor number - " + count);
       document.getElementById('counter').innerText = count;
     }).catch(function (error) {
       console.log(error);
